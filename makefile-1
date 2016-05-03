@@ -1,0 +1,9 @@
+all:  word_stat.cpp
+	g++ -o word_stat word_stat.cpp -lpthread
+	
+	
+
+clean: 
+	$(RM) word_stat
+	$(RM) Output.txt
+	
